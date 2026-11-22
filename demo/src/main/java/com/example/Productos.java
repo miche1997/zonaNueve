@@ -1,6 +1,8 @@
 package com.example;
 
+
 public class Productos {
+
 private long id;
 private String nombre;
 private double precio;
@@ -40,7 +42,7 @@ public double getPrecio() {
     return precio;
 }
 public void setPrecio(double precio) {
-    this.precio = precio;
+  this.precio = precio;
 
 }
 public String getDescripcion() {
@@ -52,10 +54,7 @@ public void setDescripcion(String descripcion) {
 
 @Override
 public String toString() {
-    return "Productos [id=" + id + ", nombre=" + nombre + ", precio=" + precio + ", descripcion=" + descripcion
-            + ", getId()=" + getId() + ", getNombre()=" + getNombre() + ", getPrecio()=" + getPrecio()
-            + ", getDescripcion()=" + getDescripcion() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-            + ", toString()=" + super.toString() + "]";
+    return "Productos [id=" + id + ", nombre=" + nombre + ", precio=" + precio + ", descripcion=" + descripcion + "]";
 }
 
 }
